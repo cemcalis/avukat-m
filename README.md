@@ -2,33 +2,6 @@
 
 Profesyonel avukat bürosu için modern ve responsive web sitesi. React frontend ve Node.js backend kullanılarak geliştirilmiştir.
 
-## 🚀 Özellikler
-
-### Frontend (React)
-
-- **Modern Tasarım**: Tailwind CSS ile profesyonel ve responsive tasarım
-- **React Router**: Sayfa yönlendirme ve navigasyon
-- **Responsive**: Tüm cihazlarda mükemmel görünüm
-- **Animasyonlar**: Framer Motion ile smooth animasyonlar
-- **İkonlar**: React Icons ile zengin ikon kütüphanesi
-
-### Backend (Node.js)
-
-- **Express.js**: Hızlı ve güvenilir API sunucusu
-- **CORS**: Cross-origin istekleri için güvenlik
-- **Rate Limiting**: API güvenliği için istek sınırlaması
-- **Helmet**: HTTP güvenlik başlıkları
-- **Nodemailer**: Email gönderimi için
-
-### Sayfalar
-
-- **Ana Sayfa**: Hero section, hizmetler önizleme, ekip tanıtımı
-- **Hakkımızda**: Misyon, vizyon, değerler, ekip bilgileri
-- **Hizmetler**: Tüm hukuk alanları ve detaylı açıklamalar
-- **Ekip**: Avukat profilleri ve uzmanlık alanları
-- **İletişim**: İletişim formu, randevu sistemi, harita
-
-## 🛠️ Kurulum
 
 ### Gereksinimler
 
@@ -79,7 +52,7 @@ npm run dev
 
 Bu komut hem frontend (port 3000) hem de backend (port 5000) sunucularını başlatacaktır.
 
-## 📁 Proje Yapısı
+##  Proje Yapısı
 
 ```
 avukat-burosu-website/
@@ -100,7 +73,7 @@ avukat-burosu-website/
 └── README.md
 ```
 
-## 🔧 Geliştirme
+##  Geliştirme
 
 ### Frontend Geliştirme
 
@@ -122,7 +95,7 @@ npm run dev
 npm run build
 ```
 
-## 📧 Email Yapılandırması
+##  Email Yapılandırması
 
 Email gönderimi için Gmail SMTP kullanılmaktadır:
 
@@ -130,7 +103,7 @@ Email gönderimi için Gmail SMTP kullanılmaktadır:
 2. Uygulama şifresi oluşturun
 3. `.env` dosyasında `EMAIL_USER` ve `EMAIL_PASS` değişkenlerini güncelleyin
 
-## 🎨 Tasarım Sistemi
+##  Tasarım Sistemi
 
 ### Renkler
 
@@ -149,15 +122,15 @@ Email gönderimi için Gmail SMTP kullanılmaktadır:
 - **Kartlar**: Hover efektleri ile
 - **Formlar**: Modern input tasarımları
 
-## 📱 Responsive Tasarım
+##  Responsive Tasarım
 
 - **Mobile**: 320px - 768px
 - **Tablet**: 768px - 1024px
 - **Desktop**: 1024px+
 
-## 🚀 Deployment
+##  Deployment
 
-### Frontend (Netlify/Vercel)
+### Frontend 
 
 ```bash
 cd client
@@ -165,31 +138,10 @@ npm run build
 # build klasörünü deploy edin
 ```
 
-### Backend (Heroku/Railway)
+### Backend 
 
 ```bash
 cd server
 # Heroku CLI ile deploy edin
 ```
 
-## 📄 Lisans
-
-MIT License - Detaylar için LICENSE dosyasına bakın.
-
-## 🤝 Katkıda Bulunma
-
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit yapın (`git commit -m 'Add amazing feature'`)
-4. Push yapın (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 📞 İletişim
-
-- **Email**: info@avukatburosu.com
-- **Telefon**: +90 (212) 555 0123
-- **Adres**: Levent Mahallesi, Büyükdere Caddesi, No: 123, Kat: 5, Beşiktaş/İstanbul
-
----
-
-**Not**: Bu proje eğitim amaçlı geliştirilmiştir. Gerçek kullanım için güvenlik önlemlerini artırın ve production ortamında test edin.
